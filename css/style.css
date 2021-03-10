@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  background-image: url(https://images.unsplash.com/photo-1513366208864-87536b8bd7b4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Ym9rZWh8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(27, 27, 26);
+  overflow-x: hidden;
+}
+
+/* Side navigation links */
+.sidenav a {
+  color: rgb(223, 186, 186);
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: rgb(189, 55, 55);
+  color: black;
+}
+
+/* Style the content */
+.content {
+  font-size: 30px;
+  margin-left: 220px;
+  padding-left: 50px;
+}
+.text {
+  font-family: monospace;
+  font-size: 20px;
+  width: 600px;
+  padding: 5px;
+  margin: 150px;
+  text-align: left;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+img {
+  width: 450px;
+  height: 450px;
+  vertical-align: bottom;
+  float: right;
+  margin: 60px;
+}
